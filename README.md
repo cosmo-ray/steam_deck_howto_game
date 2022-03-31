@@ -1,10 +1,23 @@
-# steam_deck_howto_game
-How to play unsupported games on steam deck
+# Steam Deck Stuff
 
-## Baldur's Gate 2
+
+## How to play unsupported games on steam deck
+
+### Baldur's Gate 2
+
+Just switch to linux runtime in property
+
+### Atom RPG
 
 Just switch to linux runtime in property
 
-## Atom RPG
+## other
 
-Just switch to linux runtime in property
+### fallout 2 restauration patch
+
+*from this site https://falloutmods.fandom.com/wiki/F2RP_Technical_Info#WINE*
+
+- Install Fallout 2
+- Install Restauration Patch
+- WINEDLLOVERRIDES="ddraw.dll=n" %command% (fix the bug about city stuff)
+
