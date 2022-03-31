@@ -17,7 +17,7 @@ Just switch to linux runtime in property
 
 *from this site https://falloutmods.fandom.com/wiki/F2RP_Technical_Info#WINE*
 
-- Install Fallout 2
-- Install Restauration Patch
+- Install Fallout 2 (in steam)
+- Install Restauration Patch (using desktop mode)
 - WINEDLLOVERRIDES="ddraw.dll=n" %command% (fix the bug about city stuff)
 
