@@ -3,6 +3,8 @@
 
 ## How to play unsupported games on steam deck
 
+NOTE: this repository is Badly maintain, and may have a lot of outdated informations
+
 ### Baldur's Gate 2
 
 Just switch to linux runtime in property
