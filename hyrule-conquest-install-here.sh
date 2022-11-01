@@ -13,10 +13,11 @@ fi
 
 if [ ! -f $HC_MOD ]; then
     if [ ! -f $HC_ZIP ]; then
-	zenity --warning --text='Download it at "https://www.moddb.com/mods/hyrule-conquest"' --title="$HC_ZIP not found"
-	xdg-open "https://www.moddb.com/mods/hyrule-conquest"
+	zenity --warning --text="Download it at 'https://www.moddb.com/mods/hyrule-conquest'\nthen move it to this directory\nand restart the scrit" --title="$HC_ZIP not found"
+	xdg-open "https://www.moddb.com/mods/hyrule-conquest/downloads"
 	exit 1
     fi
+    zenity --info --text="Extracting hyrule-conquest.zip, this might take a few minutes" --title='unzipping'
     unzip $HC_ZIP
 fi
 
