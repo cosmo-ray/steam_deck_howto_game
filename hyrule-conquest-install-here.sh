@@ -22,10 +22,10 @@ if [ ! -f $HC_MOD ]; then
 fi
 
 mkdir 0ad-shared/
-ln -s $PWD/0ad-shared/ ~/.local/share/0ad
+ln -s "$PWD/0ad-shared/" ~/.local/share/0ad
 
 mkdir 0ad-cfg/
-ln -s $PWD/0ad-cfg/ ~/.config/0ad
+ln -s "$PWD/0ad-cfg/" ~/.config/0ad
 
 zenity --info --text="0ad mod config window will now start\nenable hyrul conquest there\nthen save config \!\!"  --title='Mostly Done !'
 
