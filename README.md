@@ -5,9 +5,10 @@
 ### Baldur's Gate mod:
 - download weidu https://github.com/WeiDUorg/weidu and extract it
 - export path to weidu directory (export PATH=$PATH:<WEIDU_PATH>)
-- download that, https://github.com/ScottBrooks/modmerge/releases, extract it in weido directory
+- (if SOD DLC installed)download that, https://github.com/ScottBrooks/modmerge/releases, extract it in weido directory 
 - move whole BG directoty content out of it, use `chattr +F BG_DIR`, and, move all content back in the directory
-- you can now use weidu to install mod :)
+- (if SOD DLC installed) use modmerge before installing mod
+- you can now use weidu to install other mods :)
 
 ### fallout 2 restauration patch
 
