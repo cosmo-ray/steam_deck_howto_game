@@ -1,19 +1,13 @@
 # Steam Deck Stuff
 
 
-## How to play unsupported games on steam deck
 
-NOTE: this repository is Badly maintain, and may have a lot of outdated informations
-
-### Baldur's Gate 2
-
-Just switch to linux runtime in property
-
-### Atom RPG
-
-Just switch to linux runtime in property
-
-## other
+### Baldur's Gate mod:
+- download weidu https://github.com/WeiDUorg/weidu and extract it
+- export path to weidu directory (export PATH=$PATH:<WEIDU_PATH>)
+- download that, https://github.com/ScottBrooks/modmerge/releases, extract it in weido directory
+- move whole BG directoty content out of it, use `chattr +F BG_DIR`, and, move all content back in the directory
+- you can now use weidu to install mod :)
 
 ### fallout 2 restauration patch
 
